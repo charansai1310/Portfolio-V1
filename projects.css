@@ -1,0 +1,46 @@
+.project {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: black;
+    color: white;
+}
+
+.project h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.project-grid {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 5%;
+}
+
+.project-tile {
+    box-sizing: border-box;
+    padding: 2%;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 0 12px 16px 0 white, 0 17px 50px 0 white;
+}
+
+
+
+@media (max-width: 700px) {
+    .project{
+        padding-top: 0%;
+    }
+}
+
+@media ((max-width: 950px) and (min-width: 701px)) {
+    .project{
+        padding-top: 5%;
+    }
+}
