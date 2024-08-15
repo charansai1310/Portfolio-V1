@@ -1,3 +1,4 @@
+
 .home{
     margin: 0%;
     box-sizing: border-box;
@@ -43,6 +44,18 @@
     box-sizing: border-box;
     width: 100%;
     text-align: left;
+}
+.skill-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.skill-buttons .skills{
+    border: 0;
+    background-color: red;
+    color: white;
+    font-size: x-large;
 }
 
 @media (max-width: 400px) {
@@ -101,3 +114,4 @@
         border-radius: 20px;
     }
 }
+
